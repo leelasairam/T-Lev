@@ -112,7 +112,7 @@ function Share(){
         navigator.share({
             title: "Travel-Score",
             text: "Check out Travel Score",
-            url: "https://google.com/",
+            url: "https://t-lev.vercel.app/",
           });
     }
 }
