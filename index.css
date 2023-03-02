@@ -1,0 +1,18 @@
+body{
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.DT{
+    padding:0.5rem;
+    height: 120px;
+    width: 120px;
+    border-style:ridge;
+}
+
+
+#content{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 20px;
+}

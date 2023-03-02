@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-LEV</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div style="color: white;background-color:purple;padding:0.5rem;text-align:center;font-weight:600">
+        <p id="score">Score: 0</p> 
+        <p style="font-weight: 200;font-size:12px">[Never been here]: 0, [Passed here]: 1, [Visited here]: 2, [Stayed here]: 3</p>
+    </div>
+    <br/>
+    <div id="content"></div>
+    <br/>
+    <div>
+        <button onclick="Save()">Save</button>
+        <button onclick="Reset()">Reset</button>
+        <button onclick="SaveAsImg()">Save as Image</button>
+        <button onclick="Share()">Share</button>
+    </div>
+    <!--script-->
+    <script src="index.js"></script>
+</body>
+</html>
